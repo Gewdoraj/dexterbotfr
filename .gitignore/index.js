@@ -1844,6 +1844,10 @@ bot.on("message", async function(message) {
         case "raidraichualola":
         message.channel.send("<:dexter:481153458192252937> Fiche Raid **Raichu d'Alola** <:dexter:481153458192252937> \nForme Chromatique: **Non** \nCP: **16178** \nTaux de capture: **10%** \nCP après capture: **1158 - 1224** \nLes Pokémons à choisir: **Mewtwo, Tyranocif, Démolosse, Rayquaza, Absol, Scarabrute, Groudon, Rhinoféros, Ectoplasma**")
     }
+    switch(args[0].toLocaleLowerCase()) {
+        case "ectoplasma":
+        message.channel.send("<:dexter:481153458192252937> **Ectoplasma**: Pokémon de type **Spectre/Poison** <:dexter:481153458192252937> \nVulnérable à: **Ténèbres, Sol, Spectre, Psy** \nRésistant à: **Fée, Plante, Insecte, Poison, Normal, Combat** \nMeilleur set en Attaque: **Châtiment - Ball'Ombre** \nMeilleur set en Défense: **Châtiment - Balle Ombre**")
+    }
 });
 
 
